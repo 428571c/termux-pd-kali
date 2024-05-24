@@ -7,7 +7,7 @@ echo "- 项目地址：$HOMEPAGE"
 echo "- Bug反馈：$HOMEPAGE/issues"
 echo "- 正在安装核心依赖"
 apt update
-apt install curl busybox proot-distro aria2c -y
+apt install curl busybox proot-distro aria2 -y
 echo "- 核心依赖安装完成"
 echo "- 正在下载破解补丁"
 curl -L -O --http1.1 $HOMEPAGE/raw/master/pd-cracker.sh
