@@ -12,6 +12,7 @@ sed -i 's/kali/cao/g' $PREFIX/bin/proot-distro
 sed -i 's/parrot/nima/g' $PREFIX/bin/proot-distro
 sed -i 's/nethunter/shabi/g' $PREFIX/bin/proot-distro
 sed -i 's/blackarch/sylirre/g' $PREFIX/bin/proot-distro
+sed -i 's/ubuntu/null/g' $PREFIX/bin/proot-distro
 sed -i 's/get a Kali Linux for this/出现未知错误，请尝试重新破解。如果您反复看见此提示，请去项目主页提issues/g' $PREFIX/bin/proot-distro
 
 echo "- 移除检测成功！"
